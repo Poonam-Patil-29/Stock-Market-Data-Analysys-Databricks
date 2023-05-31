@@ -17,9 +17,9 @@ The data is often analyzed using various tools and techniques to gain insights i
 ![ERD](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/323b831e-aaeb-4478-a289-ab121dea87b5)
 
 ## Databricks & Pyspark: Real Time ETL Pipeline Azure SQL to ADLS
-* 1. Extract data from Azure SQL tables
-* 2. Transform the data with business rules
-* 3. Load the data to Azure Data Lake Storage
+* 1. Extract data from Azure SQL tables<br>
+* 2. Transform the data with business rule<br>
+* 3. Load the data to Azure Data Lake Storage<br>
 * ETL:
   E: read tables from Azure SQl [fact and dimension tables], JDBC connector is used, dataframes are created
   T: Business transformations are applied, Null are replaced with default values, duplicates are dropped, join and aggregate are performed
