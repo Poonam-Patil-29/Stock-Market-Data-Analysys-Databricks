@@ -21,9 +21,9 @@ The data is often analyzed using various tools and techniques to gain insights i
 * 2. Transform the data with business rule<br>
 * 3. Load the data to Azure Data Lake Storage<br>
 * ETL:
-  E: read tables from Azure SQl [fact and dimension tables], JDBC connector is used, dataframes are created
-  T: Business transformations are applied, Null are replaced with default values, duplicates are dropped, join and aggregate are performed
-  L: Mount point is created for ADLS integration, Data is loaded in Parquet file format to target location
+  E: read tables from Azure SQl [fact and dimension tables], JDBC connector is used, dataframes are created <br>
+  T: Business transformations are applied, Null are replaced with default values, duplicates are dropped, join and aggregate are performed <br>
+  L: Mount point is created for ADLS integration, Data is loaded in Parquet file format to target location <br>
 
 * Prerequisites:
   Azure subscription: If you don't have an Azure subscription, create a free account before you begin.
