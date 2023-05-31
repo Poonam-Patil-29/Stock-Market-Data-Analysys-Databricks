@@ -46,17 +46,15 @@ ETL:<br>
 * STEP 11 : Once the cluster is up and running, you can now go back to the dashboard and create a Notebook.
 * STEP 12 : create Azure SQl Database
 * STEP 13 : Give storage account name <storage account> and copy access key from storage account and paste.
-* spark.conf.set(
-	"fs.azure.account.key.<storage account>.dfs.core.windows.net",
-  "<access key>"
+* spark.conf.set("fs.azure.account.key.<storage account>.dfs.core.windows.net", "<access key>")
 * STEP 14 : Open the cluster and from advance copy paste below details and execute.
-  jdbcHostname = 'databrick-server1.database.windows.net'
-  jdbcport = '1433'
-  jdbcDatabase = 'Database1'                   
-  properties = {
-  	'user':'Poonam', </br>                           
- 	'password':'Encrypted@2023'}
-  url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)
-  output = DataFrameWriter(df_new)
-  output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)
+  jdbcHostname = 'databrick-server1.database.windows.net'<br>
+  jdbcport = '1433'<br>
+  jdbcDatabase = 'Database1'<br>                   
+  properties = 
+	{'user':'Poonam', </br>                           
+ 	'password':'Encrypted@2023'}<br>
+  url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
+  output = DataFrameWriter(df_new)<br>
+  output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)<br>
 * STEP 15 : Now you can execute queries on query editor.
