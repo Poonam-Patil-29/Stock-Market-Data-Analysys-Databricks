@@ -21,20 +21,20 @@ The data is often analyzed using various tools and techniques to gain insights i
 * 2. Transform the data with business rules
 * 3. Load the data to Azure Data Lake Storage
 * ETL:
-* E: read tables from Azure SQl [fact and dimension tables], JDBC connector is used, dataframes are created
-* T: Business transformations are applied, Null are replaced with default values, duplicates are dropped, join and aggregate are performed
-* L: Mount point is created for ADLS integration, Data is loaded in Parquet file format to target location
+  E: read tables from Azure SQl [fact and dimension tables], JDBC connector is used, dataframes are created
+  T: Business transformations are applied, Null are replaced with default values, duplicates are dropped, join and aggregate are performed
+  L: Mount point is created for ADLS integration, Data is loaded in Parquet file format to target location
 
 * Prerequisites:
-* Azure subscription: If you don't have an Azure subscription, create a free account before you begin.
-* Azure Storage account with Data Lake Storage Gen2 enabled: If you don't have a Storage account, create an account.
+  Azure subscription: If you don't have an Azure subscription, create a free account before you begin.
+  Azure Storage account with Data Lake Storage Gen2 enabled: If you don't have a Storage account, create an account.
 
 * STEP 1 : Create a storage account:
 * STEP 2 : Load the csv file into Azure blob storage
-* - open the Storage account
-* - click on containers
-* - Add a Source (mariapgsource) and a destination container (mariapgdestination)
-* - Open the source container > Upload the CSV file from the Laptop folder [Max file size supported is 2.1MB]
+  - open the Storage account
+  - click on containers
+  - Add a Source (mariapgsource) and a destination container (mariapgdestination)
+  - Open the source container > Upload the CSV file from the Laptop folder [Max file size supported is 2.1MB]
 * STEP 3 : Create a data factory: 2 methods: 1. by using the Azure portal UI or 2. by using Azure Data Factory Studio
 * STEP 4 : Launch Azure Data Factory.
 * STEP 5 : Launch Azure portal UI.
@@ -47,16 +47,16 @@ The data is often analyzed using various tools and techniques to gain insights i
 * STEP 12 : create Azure SQl Database
 * STEP 13 : Give storage account name <storage account> and copy access key from storage account and paste.
 * spark.conf.set(
-* "fs.azure.account.key.<storage account>.dfs.core.windows.net",
-* "<access key>"
-* STEP 14 : Open the cluster and from advance copy paste below details and execute.
-* jdbcHostname = 'databrick-server1.database.windows.net'
-* jdbcport = '1433'
-* jdbcDatabase = 'Database1'                       
-* properties = {
-* 	'user':'Poonam',                            
-* 	'password':'Encrypted@2023'}
-* url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)
-* output = DataFrameWriter(df_new)
-* output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)
+  "fs.azure.account.key.<storage account>.dfs.core.windows.net",
+  "<access key>"
+  STEP 14 : Open the cluster and from advance copy paste below details and execute.
+  jdbcHostname = 'databrick-server1.database.windows.net'
+  jdbcport = '1433'
+  jdbcDatabase = 'Database1'                       
+  properties = {
+  	'user':'Poonam',                            
+ 	'password':'Encrypted@2023'}
+  url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)
+  output = DataFrameWriter(df_new)
+  output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)
 * STEP 15 : Now you can execute queries on query editor.
