@@ -48,7 +48,7 @@ ETL:<br>
 * STEP 13 : Give storage account name <storage account> and copy access key from storage account and paste.<br>
   spark.conf.set("fs.azure.account.key.<storage account>.dfs.core.windows.net", "access key")<br>
 * STEP 14 : Open the cluster and from advance copy paste below details and execute.<br>
-  - jdbcHostname = 'databrick-server1.database.windows.net'<br>
+  - jdbcHostname = 'databrick-server1.database.windows.net'
   - jdbcport = '1433'<br>
   - jdbcDatabase = 'Database1'           
   - properties = {'user':'Poonam','password':'Encrypted@2023'}<br>
