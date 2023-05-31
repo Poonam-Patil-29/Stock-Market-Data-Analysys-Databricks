@@ -50,7 +50,7 @@ ETL:<br>
 * STEP 14 : Open the cluster and from advance copy paste below details and execute.<br>
   jdbcHostname = 'databrick-server1.database.windows.net'<br>
   jdbcport = '1433'<br>
-  jdbcDatabase = 'Database1' <br>             
+  jdbcDatabase = 'Database1'           
   properties = {'user':'Poonam','password':'Encrypted@2023'}<br>
   url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
   output = DataFrameWriter(df_new)<br>
