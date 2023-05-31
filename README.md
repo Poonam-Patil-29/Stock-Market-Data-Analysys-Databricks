@@ -59,7 +59,7 @@ ETL:<br>
 * STEP 15 : Now you can execute queries on query editor.
 
 ## Visualization :
-Power BI Desktop is a free application you install on your local computer that lets you connect to, transform, and visualize your data. With Power BI Desktop, you can connect to multiple different sources of data, and combine them (often called modeling) into a data model. This data model lets you build visuals, and collections of visuals you can share as reports, with other people inside your organization. Most users who work on business intelligence projects use Power BI Desktop to create reports, and then use the Power BI service to share their reports with others.
+Power BI Desktop is a free application you install on your local computer that lets you connect to, transform, and visualize your data. With Power BI Desktop, you can connect to multiple different sources of data, and combine them (often called modeling) into a data model. This data model lets you build visuals, and collections of visuals you can share as reports, with other people inside your organization. Most users who work on business intelligence projects use Power BI Desktop to create reports, and then use the Power BI service to share their reports with others.<br>
 Steps to connect with Power BI Desktop :
 * Step 1 : From the Home ribbon, select Get Data > More.
 * Step 2 : When you select a data type, you're prompted for information, such as the URL and credentials, necessary for Power BI Desktop to connect to the data    source on your behalf.
