@@ -63,9 +63,9 @@ Power BI Desktop is a free application you install on your local computer that l
 Steps to connect with Power BI Desktop :
 * Step 1 : From the Home ribbon, select Get Data > More.
 * Step 2 : When you select a data type, you're prompted for information, such as the URL and credentials, necessary for Power BI Desktop to connect to the data    source on your behalf.
-* Step 3 : After you connect to one or more data sources, you may want to transform the data so it's useful for you.
+* Step 3 : After you connect to one or more data sources, you may want to transform the data so it's useful for you.<br>
 ![1](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/e8f6808e-838c-4570-94cf-ca5bced5f412)
-	<br>
+<br>
 ![2](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/64b5f08e-2de5-4129-9d9f-a957afe6d928)
 <br>
 ![3](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/8024da6c-a192-48fe-a5aa-8232a1f8b94a)
