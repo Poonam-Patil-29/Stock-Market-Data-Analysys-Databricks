@@ -6,11 +6,11 @@ Stock market data refers to the collection of information related to stocks and 
 The data is often analyzed using various tools and techniques to gain insights into market behavior and inform investment decisions.
 
 ## TECHONOLOGIES :
-* Language 		Python, Pyspark
-* Environment 		Azure Databricks
-* Visualization 		PowerBI
-* Azure Services 		SQL Databases, Azure Data Lake Factory, Storage Accounts, Azure Databricks
-* DevOps 			Continuous Intergration and Continuous Deployment, GitHub
+* Language 		: Python, Pyspark
+* Environment 		: Azure Databricks
+* Visualization 	: PowerBI
+* Azure Services 	: SQL Databases, Azure Data Lake Factory, Storage Accounts, Azure Databricks
+* DevOps 		: Continuous Intergration and Continuous Deployment, GitHub
 
 
 
