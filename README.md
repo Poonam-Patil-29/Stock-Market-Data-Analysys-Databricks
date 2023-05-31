@@ -55,4 +55,5 @@ ETL:<br>
   - url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
   - output = DataFrameWriter(df_new)<br>
   - output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)<br>
+    Need to set server firewall to match the system IP address to access Azure SQl Server database
 * STEP 15 : Now you can execute queries on query editor.
