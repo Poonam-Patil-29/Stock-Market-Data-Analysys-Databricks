@@ -47,11 +47,11 @@ ETL:<br>
 * STEP 12 : create Azure SQl Database
 * STEP 13 : Give storage account name <storage account> and copy access key from storage account and paste.
 * spark.conf.set("fs.azure.account.key.<storage account>.dfs.core.windows.net", "<access key>")
-* STEP 14 : Open the cluster and from advance copy paste below details and execute.
+* STEP 14 : Open the cluster and from advance copy paste below details and execute.<br>
   jdbcHostname = 'databrick-server1.database.windows.net'<br>
   jdbcport = '1433'<br>
   jdbcDatabase = 'Database1'<br>                   
-  properties = 
+  properties = <br>
 	{'user':'Poonam', </br>                           
  	'password':'Encrypted@2023'}<br>
   url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
