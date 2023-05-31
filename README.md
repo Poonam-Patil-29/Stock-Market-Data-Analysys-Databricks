@@ -66,14 +66,14 @@ Steps to connect with Power BI Desktop :
 * Step 3 : After you connect to one or more data sources, you may want to transform the data so it's useful for you.<br>
 ![1](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/e8f6808e-838c-4570-94cf-ca5bced5f412)
 <br>
-![2](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/64b5f08e-2de5-4129-9d9f-a957afe6d928)
+![2](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/e8e57357-ecb1-4127-ad36-7929fe339771)
 <br>
-![3](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/8024da6c-a192-48fe-a5aa-8232a1f8b94a)
+![3](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/2af3eeb4-8c70-4221-8d58-196473863abc)
 <br>
-![4](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/637b6a54-6d1a-405d-9669-fadcbc957740)
+![4](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/29bf4d2f-7df3-46e1-9b69-e4932de34ff7)
 <br>
-![5](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/2f924570-314e-4f9b-af4d-16eda994a367)
+![5](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/4f9900e7-df67-42e8-94e3-c8c9fb575c64)
 <br>
-![6](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/04fe9a2e-c1ef-4c08-9728-28e21a078c7c)
+![6](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/d4e9bbfa-eee6-4191-9ff5-055e11cb6218)
 
 
