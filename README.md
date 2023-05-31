@@ -51,7 +51,7 @@ ETL:<br>
   jdbcHostname = 'databrick-server1.database.windows.net'<br>
   jdbcport = '1433'<br>
   jdbcDatabase = 'Database1' <br>             
-  properties = {'user':'Poonam','password':'Encrypted@2023'}<br>
+  properties = {'user':'Poonam','password':'Encrypted@2023'}
   url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
   output = DataFrameWriter(df_new)<br>
   output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)<br>
