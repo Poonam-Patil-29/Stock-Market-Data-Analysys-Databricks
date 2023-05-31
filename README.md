@@ -48,11 +48,11 @@ ETL:<br>
 * STEP 13 : Give storage account name <storage account> and copy access key from storage account and paste.<br>
   spark.conf.set("fs.azure.account.key.<storage account>.dfs.core.windows.net", "access key")<br>
 * STEP 14 : Open the cluster and from advance copy paste below details and execute.<br>
-  jdbcHostname = 'databrick-server1.database.windows.net'<br>
-  jdbcport = '1433'<br>
-  jdbcDatabase = 'Database1'           
-  properties = {'user':'Poonam','password':'Encrypted@2023'}<br>
-  url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
-  output = DataFrameWriter(df_new)<br>
-  output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)<br>
+  - jdbcHostname = 'databrick-server1.database.windows.net'<br>
+  - jdbcport = '1433'<br>
+  - jdbcDatabase = 'Database1'           
+  - properties = {'user':'Poonam','password':'Encrypted@2023'}<br>
+  - url = "jdbc:sqlserver://{0}:{1};database={2}".format(jdbcHostname,jdbcport,jdbcDatabase)<br>
+  - output = DataFrameWriter(df_new)<br>
+  - output.jdbc(url = url, table = 'sample', mode = 'overwrite', properties = properties)<br>
 * STEP 15 : Now you can execute queries on query editor.
