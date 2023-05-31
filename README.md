@@ -72,6 +72,6 @@ Steps to connect with Power BI Desktop :
 ![6](https://github.com/Poonam-Patil-29/Stock-Market-Data-Analysys-Databricks/assets/104273538/d4e9bbfa-eee6-4191-9ff5-055e11cb6218)<br>
 
 ## Contributors :
-		Poonam Patil
-		Mohammad Ibrahim
+Poonam Patil
+Mohammad Ibrahim
 
